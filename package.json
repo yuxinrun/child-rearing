@@ -1,0 +1,19 @@
+{
+  "name": "child-rearing-handbook",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "从出生到大学毕业的养育手册 — 分阶段、分性别、AI 时代，支持听书连播",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "@fontsource-variable/jetbrains-mono": "^5.3.0",
+    "@fontsource-variable/manrope": "^5.3.0"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
